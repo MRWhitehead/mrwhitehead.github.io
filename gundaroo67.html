@@ -4,113 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Before/After Slider</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: white;
-        }
-
-        .slider-container {
-            position: relative;
-            width: 100%;
-            max-width: 1200px;
-        }
-
-        .slider-container img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .slider {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            width: 50%;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        .slider img {
-            position: relative;
-            left: 0;
-        }
-
-        .handle {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            width: 4px;
-            height: 100%;
-            background-color: #000;
-            cursor: ew-resize;
-        }
-
-        .handle:before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: -10px;
-            width: 24px;
-            height: 24px;
-            background-color: #fff;
-            border: 2px solid #000;
-            border-radius: 50%;
-            transform: translateY(-50%);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="slider-container">
-        <img src="images/1967gundaroo.jpg" alt="Before">
-        <div class="slider">
-            <img src="images/20230826.jpg" alt="After">
+    <main>
+        <div class="container">
+            <div class="image-container">
+                <img
+                    class="image-before slider-image"
+                    src="images/1967gundaroo.jpg"
+                    alt="color photo"
+                />
+                <img
+                    class="image-after slider-image"
+                    src="images/20230826.jpg"
+                    alt="black and white"
+                />
+            </div>
+            <input
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Percentage of before photo shown"
+                class="slider"
+            />
+            <div class="slider-line" aria-hidden="true"></div>
+            <div class="slider-button" aria-hidden="true">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                >
+                    <rect width="256" height="256" fill="none"></rect>
+                    <line
+                        x1="128"
+                        y1="40"
+                        x2="128"
+                        y2="216"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="16"
+                    ></line>
+                    <line
+                        x1="96"
+                        y1="128"
+                        x2="16"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="16"
+                    ></line>
+                    <polyline
+                        points="48 160 16 128 48 96"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="16"
+                    ></polyline>
+                    <line
+                        x1="160"
+                        y1="128"
+                        x2="240"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="16"
+                    ></line>
+                    <polyline
+                        points="208 96 240 128 208 160"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="16"
+                    ></polyline>
+                </svg>
+            </div>
         </div>
-        <div class="handle"></div>
-    </div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const slider = document.querySelector(".slider");
-            const handle = document.querySelector(".handle");
-            const container = document.querySelector(".slider-container");
-
-            let isActive = false;
-
-            container.addEventListener("mousedown", function(e) {
-                isActive = true;
-                moveSlider(e);
-            });
-
-            window.addEventListener("mouseup", function() {
-                isActive = false;
-            });
-
-            window.addEventListener("mousemove", function(e) {
-                if (isActive) {
-                    moveSlider(e);
-                }
-            });
-
-            function moveSlider(e) {
-                let rect = container.getBoundingClientRect();
-                let xPos = e.clientX - rect.left;
-                let width = rect.width;
-
-                if (xPos < 0) xPos = 0;
-                if (xPos > width) xPos = width;
-
-                let percentage = (xPos / width) * 100;
-
-                slider.style.width = `${percentage}%`;
-                handle.style.left = `${percentage}%`;
-            }
-        });
-    </script>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/dzqDU9efnnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
