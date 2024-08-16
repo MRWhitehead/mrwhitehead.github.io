@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before/After Slider</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+        }
+
+        .slider-container {
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .slider-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .slider {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .slider img {
+            position: relative;
+            left: -100%;
+        }
+
+        .handle {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 4px;
+            height: 100%;
+            background-color: #000;
+            cursor: ew-resize;
+        }
+
+        .handle:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: -10px;
+            width: 24px;
+            height: 24px;
+            background-color: #fff;
+            border: 2px solid #000;
+            border-radius: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <img src="images/1967gundaroo.jpg" alt="Before">
+        <div class="slider">
+            <img src="images/20230826.jpg" alt="After">
+        </div>
+        <div class="handle"></div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const slider = document.querySelector(".slider");
+            const handle = document.querySelector(".handle");
+            const container = document.querySelector(".slider-container");
+
+            let isActive = false;
+
+            container.addEventListener("mousedown", function(e) {
+                isActive = true;
+                moveSlider(e);
+            });
+
+            window.addEventListener("mouseup", function() {
+                isActive = false;
+            });
+
+            window.addEventListener("mousemove", function(e) {
+                if (isActive) {
+                    moveSlider(e);
+                }
+            });
+
+            function moveSlider(e) {
+                let rect = container.getBoundingClientRect();
+                let xPos = e.clientX - rect.left;
+                let width = rect.width;
+
+                if (xPos < 0) xPos = 0;
+                if (xPos > width) xPos = width;
+
+                let percentage = (xPos / width) * 100;
+
+                slider.style.width = `${percentage}%`;
+                handle.style.left = `${percentage}%`;
+            }
+        });
+    </script>
+</body>
+</html>
