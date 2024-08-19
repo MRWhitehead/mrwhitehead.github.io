@@ -99,3 +99,17 @@ main {
   pointer-events: none;
   box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
 }
+
+/* Styling for the text paragraphs */
+.text-container {
+  max-width: 800px;
+  margin-top: 2rem; /* Space between slider and text */
+  color: #aaa; /* Sleek grey text */
+  background-color: #222; /* Slightly darker background for contrast */
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.text-container p {
+  margin-bottom: 1rem;
+}
