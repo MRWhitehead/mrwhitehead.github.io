@@ -41,8 +41,9 @@ main {
 }
 
 .image-container {
-  max-width: 800px;
-  max-height: 90vh;
+  width: 100%;
+  max-width: 1000px;
+  max-height: 60vh;
   aspect-ratio: 1/1;
 }
 
@@ -51,6 +52,24 @@ main {
   height: 100%;
   object-fit: cover;
   object-position: left;
+}
+
+/* Media Query for Small Screens (e.g., mobile devices) */
+@media (max-width: 600px) {
+  .image-container {
+      max-width: 100%; /* Use full screen width */
+      aspect-ratio: 4/3; /* Adjust aspect ratio for mobile */
+      max-height: 40vh; /* Smaller height for mobile */
+  }
+}
+
+/* Media Query for Medium Screens (e.g., tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .image-container {
+      max-width: 90%; /* Slightly smaller width */
+      aspect-ratio: 16/9; /* Maintain wide aspect ratio */
+      max-height: 50vh; /* Adjust height */
+  }
 }
 
 .image-before {
