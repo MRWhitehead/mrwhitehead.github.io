@@ -75,7 +75,6 @@ main {
   position: absolute;
   inset: 0;
   width: var(--position);
-  filter: grayscale(100%);
 }
 
 .slider {
@@ -130,4 +129,29 @@ main {
 
 .text-container p {
   margin-bottom: 1rem;
+}
+
+/* Style hyperlinks within the text-container */
+.text-container a {
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+/* Attribution container styling to match the text-container */
+.attribution-container {
+  max-width: 800px;
+  margin-top: 1rem; /* Space between text and attribution */
+  color: #aaa; /* Sleek grey text */
+  background-color: #222; /* Slightly darker background for contrast */
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center; /* Center align the content */
+}
+
+.attribution-container p {
+  margin-bottom: 0.5rem;
+}
+
+.ccby-logo {
+  width: 10%;
+  height: auto;
 }
