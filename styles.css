@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 *,
 *::after,
 *::before {
@@ -9,15 +11,11 @@
 body {
   background-color: #222; /* Dark grey background */
   color: #fff; /* Ensure text is visible on dark background */
+  font-family: 'Roboto', sans-serif; /* Modern, tech font */
 }
 
 iframe {
   aspect-ratio: 16/9;
-}
-
-.video-container {
-  margin: 2rem;
-  max-height: 300px;
 }
 
 img {
