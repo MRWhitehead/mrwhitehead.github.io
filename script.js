@@ -1,11 +1,13 @@
-// Select all containers and sliders
-const containers = document.querySelectorAll('.container');
+// Select all sliders
 const sliders = document.querySelectorAll('.slider');
 
 // Loop through each slider and attach event listeners
-sliders.forEach((slider, index) => {
+sliders.forEach((slider) => {
   slider.addEventListener('input', (e) => {
-    const container = containers[index]; // Get the corresponding container
-    container.style.setProperty('--position', `${e.target.value}%`);
+    const container = e.target.closest('.container'); // Find the corresponding container
+    if (container) {
+      container.style.setProperty('--position', `${e.target.value}%`);
+    }
   });
 });
+
