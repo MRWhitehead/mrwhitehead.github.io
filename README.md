@@ -1,7 +1,5 @@
 # aka Michael Brightwood
 
-Who? Yes, that's also me. In 2021 I changed my name from Whitehead to Brightwood for family reasons.
-
 <br>
 
 Some of my projects and interests:
