@@ -182,6 +182,12 @@ main {
   font-size: 0.75rem;
   font-weight: 500;
   opacity: 0.85;
+  text-align: center;
+}
+
+.survey-kicker a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .survey-hero h1 {
