@@ -229,20 +229,30 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
+  padding: 0.9rem 2rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.15);
-  color: #fff;
+
+  /* Make it feel like a real button */
+  background: rgba(255, 255, 255, 0.9);
+  color: #111827;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  font-weight: 600;
+
+  box-shadow: 0 14px 40px rgba(15, 23, 42, 0.45);
   text-decoration: none;
-  font-weight: 500;
-  transition: background 0.2s ease, transform 0.2s ease;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .survey-download:hover,
 .survey-download:focus-visible {
-  background: rgba(255, 255, 255, 0.3);
+  background: #f9fafb;
   transform: translateY(-2px);
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.55);
 }
+
 
 .survey-content {
   max-width: 820px;
