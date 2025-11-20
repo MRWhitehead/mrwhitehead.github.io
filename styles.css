@@ -162,9 +162,30 @@ main {
 }
 
 .survey-hero {
-  background: linear-gradient(135deg, #1f77b4 0%, #3a9ad9 100%);
+  position: relative;
   color: #fff;
-  padding: 4rem 1.5rem 3rem;
+  padding: 4.5rem 1.5rem 3.5rem;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.survey-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(140deg, rgba(15, 23, 42, 0.78) 0%, rgba(15, 23, 42, 0.6) 55%, rgba(58, 154, 217, 0.5) 100%),
+    url('images/gundaroocommon.jpg') center/cover no-repeat;
+  z-index: -2;
+  transform: scale(1.02);
+}
+
+.survey-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 25% 20%, rgba(255, 255, 255, 0.22), transparent 45%);
+  z-index: -1;
 }
 
 .survey-hero__inner {
@@ -174,6 +195,11 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.35);
 }
 
 .survey-kicker {
