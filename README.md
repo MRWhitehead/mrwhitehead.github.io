@@ -2,7 +2,7 @@
 
 <br>
 
-Some projects about the little village I call home: [Gundaroo Village Historic Slider](gundaroo67.html) | [Gundaroo Community Survey](gundaroo_survey.html)
+Some projects about the little village I call home: [Gundaroo Village Historic Slider](gundaroo67.html) / [Gundaroo Community Survey](gundaroo_survey.html)
 
 An article and data-viz I co-authored for The Guardian: [Interactive Dog Breed Genetics](https://www.theguardian.com/news/datablog/ng-interactive/2020/oct/25/interactive-see-how-your-favourite-dog-breeds-are-related-to-each-other)
 
