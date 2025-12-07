@@ -1,4 +1,7 @@
-# aka Michael Whitehead
+---
+title: "aka Michael Whitehead"
+theme: jekyll-theme-thinkspace
+---
 
 <br>
 
