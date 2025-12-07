@@ -1,4 +1,4 @@
-# "aka Michael Whitehead"
+# aka Michael Whitehead
 
 <br>
 
