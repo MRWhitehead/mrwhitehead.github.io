@@ -1,7 +1,4 @@
----
-title: "aka Michael Whitehead"
-theme: jekyll-theme-thinkspace
----
+# "aka Michael Whitehead"
 
 <br>
 
