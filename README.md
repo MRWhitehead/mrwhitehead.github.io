@@ -6,6 +6,8 @@ My academic website and blog (not so active any more): [michaelwhitehead.net](ht
 
 Some projects about the little village I call home: [Gundaroo Village Historic Slider](gundaroo67.html) / [Gundaroo Community Survey](gundaroo_survey.html)
 
+Blog archive: [Blog](blog.html)
+
 An article and data-viz I co-authored for The Guardian: [Interactive Dog Breed Genetics](https://www.theguardian.com/news/datablog/ng-interactive/2020/oct/25/interactive-see-how-your-favourite-dog-breeds-are-related-to-each-other)
 
 A story about trees: [The sexy gum: A love story](https://theconversation.com/the-sexy-gum-a-love-story-115363)

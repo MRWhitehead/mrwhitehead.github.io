@@ -1,0 +1,7 @@
+title: Michael Whitehead
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins: []
+exclude:
+  - wordpress.xml

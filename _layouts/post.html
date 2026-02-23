@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="site-title"><a href="/blog.html">← Blog archive</a></div>
+<article>
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-meta">{{ page.date | date: "%d %B %Y" }}{% if page.author %} · {{ page.author }}{% endif %}</div>
+  <div class="post-content">{{ content }}</div>
+  <div class="tags">
+    <strong>Tags:</strong>
+    {% for tag in page.tags %}<a href="/tag/{{ tag }}/">#{{ tag }}</a>{% endfor %}
+  </div>
+</article>

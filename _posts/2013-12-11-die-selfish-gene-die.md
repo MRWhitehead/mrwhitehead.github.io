@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Die Selfish Gene, Die."
+date: 2013-12-11 21:07:06 +0000
+permalink: /2013/12/11/die-selfish-gene-die/
+wordpress_slug: die-selfish-gene-die
+tags: [david-dobbs, die-selfish-gene, evolution-2, genetic-accommodation, genetics-2, selfish-gene]
+categories: [evolution, genetics, science-communication, science-journalism]
+author: "michaelrwhitehead"
+---
+I was recently asked by a friend for my opinion on David Dobbs' piece <a href="http://aeon.co/magazine/nature-and-cosmos/why-its-time-to-lay-the-selfish-gene-to-rest/">"Die Selfish Gene, Die."</a> The article spins a yarn on why Richard Dawkins' "Selfish Gene" thesis is sunk and the battle for updating it with a new theory of "genetic accommodation".
+
+It has attracted much attention as a great piece of science writing popularising the battle for a paradigm shift in genetics and evolution. Unfortunately its inaccurate and a bit too puffed up on its own bravado. My brief statement is below, however <a href="http://whyevolutionistrue.wordpress.com/2013/12/05/david-dobbs-mucks-up-evolution-part-i/">Jerry Coyne</a><a href="http://www.richarddawkins.net/foundation_articles/2013/12/6/adversarial-journalism-and-the-selfish-gene">, Richard Dawkins </a>and <a href="http://scienceblogs.com/pharyngula/2013/12/07/the-reification-of-the-gene/">PZ Myers</a> provide a more thorough commentary.
+
+***
+
+Dobbs' article describes a battle of two straw men. <br /><br />The term "genetic accommodation" is a new one to me, but the description of it sounds like phenotypic plasticity together with pleiotropy and epigenetics in a fancy jacket, but maybe we needed a word for that. Nonetheless, contrasting it with the selfish gene hypothesis is a false dichotomy. The messy truth for many traits lies somewhere in between, where the convoluted cascade of genetic-epigenetic-genetic interactions involved in "expression" will face selection as soon as its resultant phenotype hits the environment. <br /><br />The complexity of gene expression via interactions between genes and epigenetics (non-DNA inheritance) is blowing a lot of our heads off right now. It's chaotically complex in there. I think the article therefore makes a mistake in referring to "gene expression" as a singular process.<br /><br />Work I saw presented by John Mattick from the Garvan Institute provides a good example. Gene expression in human neurons can be governed by the interaction of RNAs, binding to "non-coding" DNA and interacting in 3 dimensions with complex protein molecules. In other words, it starts with a gene, which makes an RNA. That RNA's action depends on the interaction between its sequence and where it binds on the genome. The sequence of DNA to which it binds, governs how it binds; simple like a zip, or more complex and looped up. Along comes a protein molecule (encoded earlier, elsewhere, by another gene) and the molecular properties of that gargantuan tangle of amino acids determine how it interacts with that looped up bit of RNA stuck to the DNA. This binding provides but a step in some long chain of protein interactions in a biological pathway. <br /><br />This kind of combinatorial complexity of interactions provides huge plasticity of action for a single set of tools (the genome).<br /><br />One could argue that the first step of environmental interaction of any gene is the "environment" of the genome and epigenome it inhabits. This could still be squared with the selfish gene thesis.
