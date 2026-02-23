@@ -1,21 +1,34 @@
-# aka Michael Whitehead
+# Michael Whitehead site migration scaffold
 
-<br>
+This repository is now prepared to host a Jekyll-based blog migration from WordPress while preserving SEO-friendly URL structure.
 
-My academic website and blog (not so active any more): [michaelwhitehead.net](http://michaelwhitehead.net)
+## What is included
 
-Some projects about the little village I call home: [Gundaroo Village Historic Slider](gundaroo67.html) / [Gundaroo Community Survey](gundaroo_survey.html)
+- Jekyll config with permalink pattern `/:year/:month/:day/:slug/`
+- Minimal dark theme styling for posts and blog index
+- `blog.html` page that lists all posts by date
+- WordPress import script at `tools/import_wordpress.py` that:
+  - reads a WordPress WXR XML export
+  - imports published posts into `_posts/`
+  - preserves canonical permalink paths
+  - carries tags into front matter
+  - strips common WordPress presentational attributes/classes
+  - rewrites `wp-content/uploads` media links to local `/images/...`
+  - downloads media files into `/images/`
 
-An article and data-viz I co-authored for The Guardian: [Interactive Dog Breed Genetics](https://www.theguardian.com/news/datablog/ng-interactive/2020/oct/25/interactive-see-how-your-favourite-dog-breeds-are-related-to-each-other)
+## Run the migration
 
-A story about trees: [The sexy gum: A love story](https://theconversation.com/the-sexy-gum-a-love-story-115363)
+1. Export your WordPress site content as XML (WXR) from WordPress admin.
+2. Place the export file in this repo (example: `wordpress.xml`).
+3. Run:
 
-<br>
-<br>
+```bash
+python tools/import_wordpress.py --xml wordpress.xml
+```
 
-Some other places I leave breadcrumbs:
+4. Commit generated `_posts/*.md` and downloaded `images/*`.
+5. Build/deploy via GitHub Pages.
 
-- [LinkedIn](https://www.linkedin.com/in/michael-brightwood-58096614a/)
-- [Google Scholar](https://scholar.google.com/citations?user=Xs_KxPEAAAAJ&hl=en)
-- [iNaturalist](https://inaturalist.ala.org.au/people/2405463)
-- [Flickr](http://www.flickr.com/photos/mwhitehead/)
+## Notes
+
+- This environment could not directly fetch `michaelwhitehead.net` over HTTP(S), so the migration script is set up and validated with a sample XML, but real post import requires your XML export file.

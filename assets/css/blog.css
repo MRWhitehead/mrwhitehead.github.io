@@ -1,0 +1,73 @@
+:root {
+  --bg: #151515;
+  --text: #ececec;
+  --muted: #b6b6b6;
+  --accent: #8ec5ff;
+  --max-width: 780px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 19px/1.7 Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+.site-header, main {
+  width: min(100% - 2rem, var(--max-width));
+  margin-inline: auto;
+}
+
+.site-header {
+  padding: 1.5rem 0 0.5rem;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1rem;
+  font-family: Inter, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+main {
+  padding: 1rem 0 4rem;
+}
+
+h1, h2, h3 {
+  font-family: Inter, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.25;
+}
+
+.meta, time {
+  color: var(--muted);
+  font-family: Inter, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
+.post-list {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+.post-list li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.7rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
