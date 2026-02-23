@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}Blog{% endif %}</title>
+  <link rel="stylesheet" href="/blog.css">
+  {% if page.permalink %}<link rel="canonical" href="https://michaelwhitehead.net{{ page.permalink }}">{% endif %}
+</head>
+<body>
+  <main class="container">{{ content }}</main>
+</body>
+</html>
