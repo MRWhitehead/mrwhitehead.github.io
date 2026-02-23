@@ -8,7 +8,7 @@ tags: [baboon, baboons, cape-town, fieldwork, kleinplaas-dam, red-hill]
 categories: [natural-history, notes-from-the-field, research, south-africa]
 author: "michaelrwhitehead"
 ---
-<a href="/wp-content/uploads/2013/12/img_1344-1.jpg"><img class="aligncenter size-large wp-image-200" alt="IMG_1344-1" src="/wp-content/uploads/2013/12/img_1344-1.jpg?w=1024" width="1024" height="682" /></a>
+<a href="/wp-content/uploads/2013/12/img_1344-1.jpg"><img class="aligncenter size-large wp-image-200" alt="IMG_1344-1" src="/wp-content/uploads/2013/12/img_1344-1.jpg" width="1024" height="682" /></a>
 
 This is the best photo I got of a group of baboons who gave me quite an experience the other day.
 
@@ -22,6 +22,6 @@ Finally, I was forced to concede the path to the baboons. I back-stepped into th
 
 &nbsp;
 
-<figure class="wp-caption"><a href="/wp-content/uploads/2013/12/img_1355-2.jpg"><img class="size-large wp-image-201" alt="Red Hill fynbos track" src="/wp-content/uploads/2013/12/img_1355-2.jpg?w=1024" width="1024" height="682" /></a> Kleinplaas Dam fynbos track</figure>
+<figure class="wp-caption"><a href="/wp-content/uploads/2013/12/img_1355-2.jpg"><img class="size-large wp-image-201" alt="Red Hill fynbos track" src="/wp-content/uploads/2013/12/img_1355-2.jpg" width="1024" height="682" /></a> Kleinplaas Dam fynbos track</figure>
 <p style="text-align:center;"></p>
 &nbsp;

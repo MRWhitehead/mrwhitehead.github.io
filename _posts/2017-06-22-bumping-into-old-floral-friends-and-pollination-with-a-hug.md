@@ -10,7 +10,7 @@ author: "michaelrwhitehead"
 ---
 Rare plants nurseries are like second hand bookshops. It's always so tempting to browse on the off chance you find that little treasure. I recently visited a charming rare plants nursery in Mt Macedon (boutique-y town outside Melbourne, Australia) where I discovered these for sale:
 
-<figure class="wp-caption"><img class="aligncenter  wp-image-546" src="/wp-content/uploads/2017/06/20170527_160814-2.jpg?w=576" alt="20170527_160814-2" width="488" height="867" /> Hello old friend! (Hesperantha coccinea)</figure>
+<figure class="wp-caption"><img class="aligncenter  wp-image-546" src="/wp-content/uploads/2017/06/20170527_160814-2.jpg" alt="20170527_160814-2" width="488" height="867" /> Hello old friend! (Hesperantha coccinea)</figure>
 
 The last time I saw this elegant iris, it was flowering on stream banks 10,000 km away in the Drakensberg Mountain range in South Africa. There in its natural habitat, it is pollinated in some areas by a very special butterfly: the <a href="https://flic.kr/p/dSkazE">Mountain Pride <em>(Aeropetes tulbhagia</em>)</a><em>.</em> In other places, it is pollinated by the amazing <a href="https://flic.kr/p/khYxXc">long-tongue fly (<em>Prosoeca ganglbaueri</em>)</a>. The two forms are a wonderful example of "pollination ecotypes", where different populations are undergoing adaptation to their unique pollinators. The fly-serviced ones are a pink hue with narrow petals, while the butterfly-pollinated ones are much redder with broader petals.
 

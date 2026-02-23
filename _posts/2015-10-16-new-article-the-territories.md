@@ -16,4 +16,4 @@ I was happy to make a recent contribution to <em>The Territories, </em>a stor
 
 <em>Rather than luring its pollinator with the promise of food this flower uses an equally, if not more, powerful motivator: sex. Undetectable to human senses, the orchid’s advertisement is a precise chemical mimicry of a female wasp’s sex pheromone. This is targeted marketing at its finest, as the use of a signature sex pheromone ensures that the orchid attracts only males of a specific species of wasp.</em>
 
-<a href="/wp-content/uploads/2015/10/mwterritories01.jpg"><img class="alignnone wp-image-315" src="/wp-content/uploads/2015/10/mwterritories01.jpg?w=200" alt="MWTerritories01" width="358" height="529" /></a>
+<a href="/wp-content/uploads/2015/10/mwterritories01.jpg"><img class="alignnone wp-image-315" src="/wp-content/uploads/2015/10/mwterritories01.jpg" alt="MWTerritories01" width="358" height="529" /></a>

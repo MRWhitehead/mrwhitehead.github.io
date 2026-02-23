@@ -16,4 +16,4 @@ Science and Technology's response to the Coalition's policy is <a href="http://s
 
 Updated table below:
 
-<a href="/wp-content/uploads/2013/09/scipolicies8.jpg"><img class="aligncenter size-large wp-image-171" alt="SciPolicies8" src="/wp-content/uploads/2013/09/scipolicies8.jpg?w=586" width="586" height="1024" /></a>
+<a href="/wp-content/uploads/2013/09/scipolicies8.jpg"><img class="aligncenter size-large wp-image-171" alt="SciPolicies8" src="/wp-content/uploads/2013/09/scipolicies8.jpg" width="586" height="1024" /></a>

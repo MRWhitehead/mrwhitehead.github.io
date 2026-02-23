@@ -50,7 +50,7 @@ author: "michaelrwhitehead"
 <!-- /wp:group -->
 
 <!-- wp:gallery {"ids":[1110],"linkTo":"file"} -->
-<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><a href="/wp-content/uploads/2021/09/img_1036.jpg?w=1024"><img src="/wp-content/uploads/2021/09/img_1036.jpg?w=1024" alt="" data-id="1110" class="wp-image-1110" /></a><figcaption class="blocks-gallery-item__caption"><em>Lasioglossum (Homalictus) sphecodoides?</em> Collected from an <em>Oxalis</em> flower in my lawn</figcaption></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><a href="/wp-content/uploads/2021/09/img_1036.jpg"><img src="/wp-content/uploads/2021/09/img_1036.jpg" alt="" data-id="1110" class="wp-image-1110" /></a><figcaption class="blocks-gallery-item__caption"><em>Lasioglossum (Homalictus) sphecodoides?</em> Collected from an <em>Oxalis</em> flower in my lawn</figcaption></figure></li></ul></figure>
 <!-- /wp:gallery -->
 
 <!-- wp:paragraph -->
@@ -62,7 +62,7 @@ author: "michaelrwhitehead"
 <!-- /wp:paragraph -->
 
 <!-- wp:gallery {"ids":[1117],"linkTo":"file"} -->
-<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><a href="/wp-content/uploads/2021/09/img_0902-1.jpg?w=1024"><img src="/wp-content/uploads/2021/09/img_0902-1.jpg?w=1024" alt="" data-id="1117" class="wp-image-1117" /></a><figcaption class="blocks-gallery-item__caption"><em>Brevineura sp. </em>male - a genus not previously recorded in Moreland. <em>Brevineura </em>has recently been elevated to genus from its previous status as subgenus of <em>Exoneura</em>. Thanks to Mike Schwarz for the information. </figcaption></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><a href="/wp-content/uploads/2021/09/img_0902-1.jpg"><img src="/wp-content/uploads/2021/09/img_0902-1.jpg" alt="" data-id="1117" class="wp-image-1117" /></a><figcaption class="blocks-gallery-item__caption"><em>Brevineura sp. </em>male - a genus not previously recorded in Moreland. <em>Brevineura </em>has recently been elevated to genus from its previous status as subgenus of <em>Exoneura</em>. Thanks to Mike Schwarz for the information. </figcaption></figure></li></ul></figure>
 <!-- /wp:gallery -->
 
 <!-- wp:paragraph -->
@@ -81,7 +81,7 @@ author: "michaelrwhitehead"
 <!-- /wp:columns -->
 
 <!-- wp:gallery {"ids":[1114],"linkTo":"file"} -->
-<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><a href="/wp-content/uploads/2021/09/img_1275-2-1.jpg?w=1024"><img src="/wp-content/uploads/2021/09/img_1275-2-1.jpg?w=1024" alt="" data-id="1114" class="wp-image-1114" /></a><figcaption class="blocks-gallery-item__caption"><em>Lasioglossum (Parasphecodes) hiltacus</em>. Collected from Fawkner Cemetary. Thanks Ken Walker (Museums Victoria) for some help with identification.</figcaption></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><a href="/wp-content/uploads/2021/09/img_1275-2-1.jpg"><img src="/wp-content/uploads/2021/09/img_1275-2-1.jpg" alt="" data-id="1114" class="wp-image-1114" /></a><figcaption class="blocks-gallery-item__caption"><em>Lasioglossum (Parasphecodes) hiltacus</em>. Collected from Fawkner Cemetary. Thanks Ken Walker (Museums Victoria) for some help with identification.</figcaption></figure></li></ul></figure>
 <!-- /wp:gallery -->
 
 <!-- wp:paragraph -->

@@ -16,4 +16,4 @@ Charles Darwin was the first to recognize that flowers were superb teachers of e
 
 These and other awesome examples of floral evolution would surely have thrilled Darwin, and may even solve his “abominable mystery”: the rapid rise of the spectacular diversity of flowering plants.
 
-<figure class="wp-caption"><a href="/wp-content/uploads/2015/04/img_0850-3.jpg"><img class="  wp-image-268" src="/wp-content/uploads/2015/04/img_0850-3.jpg?w=200" alt="IMG_0850-3" width="250" height="368" /></a> Male thynnid wasp gripping tightly to the lure of the hammer orchid (Drakaea glyptodon).</figure>
+<figure class="wp-caption"><a href="/wp-content/uploads/2015/04/img_0850-3.jpg"><img class="  wp-image-268" src="/wp-content/uploads/2015/04/img_0850-3.jpg" alt="IMG_0850-3" width="250" height="368" /></a> Male thynnid wasp gripping tightly to the lure of the hammer orchid (Drakaea glyptodon).</figure>

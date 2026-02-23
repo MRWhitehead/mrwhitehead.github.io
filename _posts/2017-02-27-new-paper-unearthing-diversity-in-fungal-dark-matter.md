@@ -14,9 +14,9 @@ Let’s say, however, that your orchid parents do manage to achieve fertilizatio
 
 The southwest of Western Australia is rightly famous as a global biodiversity hotspot. The area is particularly rich in orchids, and the spider orchids (<em>Caladenia</em>) are some of the most impressive and diverse of the region’s main orchid groups. In 1967, University of Adelaide researcher John Warcup discovered in association with <em>Caladenia</em> a new genus of fungi. Today those fungi are called <em>Serendipita</em>, and although we have known of them for around 60 years, there have been less than a handful of species discovered and described.
 
-<figure class="wp-caption"><img class="aligncenter  wp-image-491" src="/wp-content/uploads/2017/02/img_0174.jpg?w=683" alt="img_0174" width="433" height="650" /> The spider orchid <em>Caladenia arenicola</em> was one of those sampled in the study</figure>
+<figure class="wp-caption"><img class="aligncenter  wp-image-491" src="/wp-content/uploads/2017/02/img_0174.jpg" alt="img_0174" width="433" height="650" /> The spider orchid <em>Caladenia arenicola</em> was one of those sampled in the study</figure>
 
-<figure class="wp-caption"><img class="  wp-image-503 aligncenter" src="/wp-content/uploads/2017/02/img_0494-1.jpg?w=680" alt="img_0494-1" width="435" height="653" /> White spider orchid (<em>Caladenia splendens</em>)</figure>
+<figure class="wp-caption"><img class="  wp-image-503 aligncenter" src="/wp-content/uploads/2017/02/img_0494-1.jpg" alt="img_0494-1" width="435" height="653" /> White spider orchid (<em>Caladenia splendens</em>)</figure>
 <h3><em>Ubiquitous yet invisible</em></h3>
 Although related to mushrooms, <em>Serendipita </em>fungi have not been observed producing the conspicuous spore-bearing fruit bodies we usually use to find and identify them. This makes them largely invisible, and I have therefore never observed them in the wild. Despite that, recent research using DNA sequencing has found them to be <em>absolutely everywhere</em>. Inside all kinds of plants, outside all kinds of plants, and distributed from the equator to Antarctica. It is clear then that there must be a hidden biodiversity of these species siting, waiting to be discovered.
 

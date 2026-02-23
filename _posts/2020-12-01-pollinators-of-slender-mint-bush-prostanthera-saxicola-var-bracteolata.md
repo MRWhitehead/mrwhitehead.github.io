@@ -13,7 +13,7 @@ author: "michaelrwhitehead"
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1026,"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2020/12/img_7691.jpg"><img src="/wp-content/uploads/2020/12/img_7691.jpg?w=683" alt="" class="wp-image-1026" /></a><figcaption>The Slender Mint Bush (<em>Prsotanthera saxicola var. bracteolata</em>)</figcaption></figure>
+<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2020/12/img_7691.jpg"><img src="/wp-content/uploads/2020/12/img_7691.jpg" alt="" class="wp-image-1026" /></a><figcaption>The Slender Mint Bush (<em>Prsotanthera saxicola var. bracteolata</em>)</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -29,7 +29,7 @@ author: "michaelrwhitehead"
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1035,"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2020/12/img_7624-1.jpg"><img src="/wp-content/uploads/2020/12/img_7624-1.jpg?w=1024" alt="" class="wp-image-1035" /></a><figcaption><em>Exoneura </em>native bee covered in pollen from <em>Prostanthera saxicola var. bracteolata</em></figcaption></figure>
+<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2020/12/img_7624-1.jpg"><img src="/wp-content/uploads/2020/12/img_7624-1.jpg" alt="" class="wp-image-1035" /></a><figcaption><em>Exoneura </em>native bee covered in pollen from <em>Prostanthera saxicola var. bracteolata</em></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -45,11 +45,11 @@ author: "michaelrwhitehead"
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1041,"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2020/12/img_7658.jpg"><img src="/wp-content/uploads/2020/12/img_7658.jpg?w=1024" alt="" class="wp-image-1041" /></a></figure>
+<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2020/12/img_7658.jpg"><img src="/wp-content/uploads/2020/12/img_7658.jpg" alt="" class="wp-image-1041" /></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":1042,"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2020/12/img_7588.jpg"><img src="/wp-content/uploads/2020/12/img_7588.jpg?w=1024" alt="" class="wp-image-1042" /></a><figcaption>Reed bee (<em>Exoneura sp.</em>) in flight</figcaption></figure>
+<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2020/12/img_7588.jpg"><img src="/wp-content/uploads/2020/12/img_7588.jpg" alt="" class="wp-image-1042" /></a><figcaption>Reed bee (<em>Exoneura sp.</em>) in flight</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:jetpack/tiled-gallery {"columnWidths":[[40.037379679425584,59.96262032057442]],"ids":[1047,1048]} -->
