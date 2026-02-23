@@ -41,15 +41,30 @@ def download_media(url: str, images_dir: Path, downloaded: dict[str, str]) -> st
         return downloaded[url]
 
     parsed = urllib.parse.urlparse(url)
-    filename = Path(parsed.path).name
-    safe_name = re.sub(r"[^a-zA-Z0-9._-]", "-", filename)
-    target = images_dir / safe_name
+    uploads_marker = "/wp-content/uploads/"
+    lower_path = parsed.path.lower()
+    marker_index = lower_path.find(uploads_marker)
+    if marker_index >= 0:
+        media_path = parsed.path[marker_index + len(uploads_marker) :]
+    else:
+        media_path = Path(parsed.path).name
+
+    media_path = urllib.parse.unquote(media_path).strip("/")
+    path_parts = [part for part in Path(media_path).parts if part not in {"", ".", ".."}]
+
+    if not path_parts:
+        path_parts = ["media"]
+
+    safe_parts = [re.sub(r"[^a-zA-Z0-9._-]", "-", part) for part in path_parts]
+    relative_target = Path(*safe_parts)
+    target = images_dir / relative_target
+    target.parent.mkdir(parents=True, exist_ok=True)
 
     if not target.exists():
         with urllib.request.urlopen(url) as resp:  # nosec - migration script
             target.write_bytes(resp.read())
 
-    local = f"/images/{safe_name}"
+    local = f"/images/{relative_target.as_posix()}"
     downloaded[url] = local
     return local
 
