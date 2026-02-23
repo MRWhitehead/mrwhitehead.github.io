@@ -1,0 +1,13 @@
+title: Michael Whitehead
+url: "https://michaelwhitehead.net"
+baseurl: ""
+permalink: /:year/:month/:day/:slug/
+markdown: kramdown
+kramdown:
+  input: GFM
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
