@@ -1,6 +1,6 @@
 # Michael Brightwood
 
-Data scientist and biologist. 
+Data Scientist & Biologist. 
 
 <br>
 
@@ -13,7 +13,7 @@ Links below for a collection of things I've done, made, and seen:
 
 <br>
 
-- Some projects about the little village I call home: [Gundaroo Village Historic Slider](gundaroo67.html) / [Gundaroo Community Survey](gundaroo_survey.html)
+- Some projects about the little village I call home:  [Gundaroo Community Survey](gundaroo_survey.html) / [Gundaroo Village Historic Slider](gundaroo67.html)
 
 - I used to be an academic, here's the website from that era of my work: [michaelwhitehead.net](http://michaelwhitehead.net)
 
